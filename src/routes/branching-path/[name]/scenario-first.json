@@ -1,0 +1,67 @@
+{
+	"A": {
+		"text": "Scenario A",
+		"choices": {
+			"1": {
+				"text": "Choice 1",
+				"leadsTo": "B1"
+			},
+			"2": {
+				"text": "Choice 2",
+				"leadsTo": "B2"
+			}
+		},
+		"backdrop": "/sample.jpeg"
+	},
+	"B1": {
+		"text": "Scenario B1",
+		"choices": {
+			"1": {
+				"text": "Choice 1",
+				"leadsTo": "End1"
+			},
+			"2": {
+				"text": "Choice 2",
+				"leadsTo": "End2"
+			}
+		},
+		"backdrop": "/sample-2.jpg"
+	},
+	"B2": {
+		"text": "Scenario B2",
+		"choices": {
+			"1": {
+				"text": "Choice 1",
+				"leadsTo": "End3"
+			},
+			"2": {
+				"text": "Choice 2",
+				"leadsTo": "End4"
+			}
+		},
+		"backdrop": "/sample-2.jpg"
+	},
+	"End1": {
+		"text": "Scenario End1",
+		"choices": {},
+		"backdrop": "/sample-3.jpeg"
+	},
+	"End2": {
+		"text": "Scenario End2",
+		"choices": {},
+
+		"backdrop": "/sample-3.jpeg"
+	},
+	"End3": {
+		"text": "Scenario End3",
+		"choices": {},
+
+		"backdrop": "/sample-3.jpeg"
+	},
+	"End4": {
+		"text": "Scenario End4",
+		"choices": {},
+
+		"backdrop": "/sample-3.jpeg"
+	}
+}

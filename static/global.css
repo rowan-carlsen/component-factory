@@ -1,0 +1,70 @@
+:root {
+  --primary: #041e42;
+  --secondary: #63666a;
+  --tertiary: #00b5e2;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Lato Extended";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://du11hjcvx0uqb.cloudfront.net/br/dist/fonts/lato/extended/Lato-Regular-bd03a2cc27.woff2) format("woff2");
+  font-display: auto;
+}
+@font-face {
+  font-family: "Lato Extended";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://du11hjcvx0uqb.cloudfront.net/br/dist/fonts/lato/extended/Lato-Bold-cccb897485.woff2) format("woff2");
+  font-display: auto;
+}
+body {
+  font-family: "Lato Extended", Lato, sans-serif;
+}
+.btn {
+  background: var(--primary);
+  color: white;
+  cursor: pointer;
+  font-family: "Lato Extended", sans-serif;
+  font-size: clamp(1rem, 2vw, 1.3rem);
+  margin: 0.5em 0.25em 0.25em 0.25em;
+  padding: 0.5em 1em;
+  transition: transform 0.1s;
+  width: max-content;
+}
+#verify {
+  background: #228b22;
+}
+#reset {
+  background: #b33a3a;
+}
+.btn:focus-visible,
+.btn:hover {
+  opacity: 0.8;
+}
+.btn:active {
+  transform: translate(2px, 2px);
+}
+#verify:disabled,
+#verify[disabled] .btn:disabled,
+.btn[disabled] {
+  background: gray;
+  cursor: initial;
+  opacity: 0.5;
+}
+#verify:disabled:active,
+#verify[disabled]:active,
+.btn:disabled,
+.btn[disabled] {
+  transform: none;
+}
+select {
+  background-color: var(--primary);
+  color: white;
+  font-size: 1rem;
+  padding: 0.25em;
+}

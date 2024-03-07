@@ -1,0 +1,67 @@
+{
+	"A": {
+		"text": "Scenario2 A",
+		"choices": {
+			"1": {
+				"text": "Choice 1",
+				"leadsTo": "B1"
+			},
+			"2": {
+				"text": "Choice 2",
+				"leadsTo": "B2"
+			}
+		},
+		"backdrop": "/sample.jpeg"
+	},
+	"B1": {
+		"text": "Scenario2 B1",
+		"choices": {
+			"1": {
+				"text": "Choice 1",
+				"leadsTo": "End1"
+			},
+			"2": {
+				"text": "Choice 2",
+				"leadsTo": "End2"
+			}
+		},
+		"backdrop": "/sample.jpeg"
+	},
+	"B2": {
+		"text": "Scenario2 B2",
+		"choices": {
+			"1": {
+				"text": "Choice 1",
+				"leadsTo": "End3"
+			},
+			"2": {
+				"text": "Choice 2",
+				"leadsTo": "End4"
+			}
+		},
+		"backdrop": "/sample.jpeg"
+	},
+	"End1": {
+		"text": "Scenario2 End1",
+		"choices": {},
+		"backdrop": "/sample.jpeg"
+	},
+	"End2": {
+		"text": "Scenario2 End2",
+		"choices": {},
+
+		"backdrop": "/sample.jpeg"
+	},
+	"End3": {
+		"text": "Scenario2 End3",
+		"choices": {},
+
+		"backdrop": "/sample.jpeg"
+	},
+	"End4": {
+		"text": "Scenario2 End4",
+		"choices": {},
+
+		"backdrop": "/sample.jpeg"
+	}
+}
