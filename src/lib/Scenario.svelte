@@ -3,10 +3,10 @@
 	import { slide, fade } from 'svelte/transition';
 
 	export let text, backdrop, choices;
-	const choiceArray = Object.values(choices);
+	const choiceArray = choices !== undefined ? Object.values(choices) : [];
 </script>
 
-<div class="scenario" style="background-image: url({backdrop})">
+<div class="scenario" class:hidden={text === undefined} style="background-image: url({backdrop})">
 	<div class="scenario-text" class:end={!choiceArray.length}>{text}</div>
 	<div class="choice-holder" class:hidden={!choiceArray.length} in:slide={{ delay: 1250 }}>
 		{#each choiceArray as choice}
@@ -17,11 +17,11 @@
 
 <style>
 	.scenario-text {
-		background: #fff9;
+		background: #fffa;
 		padding: 0.5em;
 		font-size: 1.1em;
-		width: max-content;
-		margin: 0 auto;
+		max-width: max-content;
+		margin: 0 1em;
 	}
 	.scenario-text.end {
 		grid-column: span 2;
@@ -33,6 +33,9 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		place-items: center;
+	}
+	.scenario.hidden {
+		display: none;
 	}
 	.choice-holder {
 		display: flex;

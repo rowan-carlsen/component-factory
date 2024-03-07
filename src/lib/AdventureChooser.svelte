@@ -1,9 +1,14 @@
 <script>
 	import Scenario from '$lib/Scenario.svelte';
 	import { fade } from 'svelte/transition';
+	import { onMount } from 'svelte';
 	export let scenarioList;
 
-	let currentScenario = scenarioList['A'];
+	let currentScenario = {};
+
+	onMount(() => {
+		currentScenario = scenarioList['A'];
+	});
 
 	function changeScenario(leadsTo) {
 		currentScenario = scenarioList[leadsTo];
