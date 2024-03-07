@@ -11,7 +11,7 @@
 				"leadsTo": "B2"
 			}
 		},
-		"backdrop": "/sample.jpeg"
+		"backdrop": "../sample.jpeg"
 	},
 	"B1": {
 		"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultricies mi quis hendrerit dolor magna. Eget nulla facilisi etiam dignissim diam quis enim. Scelerisque fermentum dui faucibus in ornare. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc.",
@@ -29,7 +29,7 @@
 				"leadsTo": "End3"
 			}
 		},
-		"backdrop": "/sample-2.jpg"
+		"backdrop": "../sample-2.jpg"
 	},
 	"B2": {
 		"text": "Erat velit scelerisque in dictum non. Nisl tincidunt eget nullam non nisi est sit amet facilisis. Id interdum velit laoreet id donec ultrices tincidunt arcu non. Magnis dis parturient montes nascetur. A scelerisque purus semper eget duis at tellus at. Nulla porttitor massa id neque aliquam vestibulum. Quam quisque id diam vel. Odio aenean sed adipiscing diam donec.",
@@ -43,29 +43,29 @@
 				"leadsTo": "End4"
 			}
 		},
-		"backdrop": "/sample-2.jpg"
+		"backdrop": "../sample-2.jpg"
 	},
 	"End1": {
 		"text": "Aliquet nec ullamcorper sit amet risus. Augue interdum velit euismod in pellentesque massa placerat. Donec pretium vulputate sapien nec sagittis aliquam. Aliquet lectus proin nibh nisl condimentum id. In vitae turpis massa sed. Sodales ut eu sem integer vitae.",
 		"choices": {},
-		"backdrop": "/sample-3.jpeg"
+		"backdrop": "../sample-3.jpeg"
 	},
 	"End2": {
 		"text": "Ut pharetra sit amet aliquam id diam maecenas ultricies mi. Orci sagittis eu volutpat odio facilisis mauris sit amet massa. Semper eget duis at tellus at urna condimentum mattis pellentesque. Quisque non tellus orci ac auctor augue mauris augue. Quis lectus nulla at volutpat.",
 		"choices": {},
 
-		"backdrop": "/sample-3.jpeg"
+		"backdrop": "../sample-3.jpeg"
 	},
 	"End3": {
 		"text": "Et ultrices neque ornare aenean euismod. Sit amet volutpat consequat mauris. Placerat orci nulla pellentesque dignissim enim sit amet venenatis. Ac ut consequat semper viverra nam. Nunc scelerisque viverra mauris in aliquam sem fringilla. Nec tincidunt praesent semper feugiat nibh. Neque gravida in fermentum et sollicitudin ac.",
 		"choices": {},
 
-		"backdrop": "/sample-3.jpeg"
+		"backdrop": "../sample-3.jpeg"
 	},
 	"End4": {
 		"text": "Amet luctus venenatis lectus magna fringilla urna porttitor. Aliquet lectus proin nibh nisl condimentum. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc. Donec ultrices tincidunt arcu non sodales neque sodales ut etiam. Dignissim convallis aenean et tortor. Interdum velit laoreet id donec ultrices. Amet nisl suscipit adipiscing bibendum est. Dictum at tempor commodo ullamcorper a lacus. Vitae auctor eu augue ut lectus arcu. Eget nulla facilisi etiam dignissim diam quis enim lobortis. Luctus venenatis lectus magna fringilla.",
 		"choices": {},
 
-		"backdrop": "/sample-3.jpeg"
+		"backdrop": "../sample-3.jpeg"
 	}
 }
